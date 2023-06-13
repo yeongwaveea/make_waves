@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+.cd-section:first-of-type>div {
+    background-color: #2b334f;
+    position: relative;
+}
+
+.header video {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.cd-section:nth-of-type(2)>div {
+    background-color: #2e5367;
+}
+
+.cd-section:nth-of-type(3)>div {
+    background-color: #267481;
+}
+
+.cd-section:nth-of-type(4)>div {
+    background-color: #fcb052;
+}
+
+.cd-section:nth-of-type(5)>div {
+    background-color: #f06a59;
+}
+
+
+
+@font-face {
+    font-family: 'KCCChassam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCChassam.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://webfontworld.github.io/TheJamsil/TheJamsil.css');
+
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+.logo{
+    position: relative;
+    left: 80px;
+    top:  80px;
+}
+
+
+
+.cd-section:nth-of-type(2)>div {
+    background:url(../image/back/background.jpg);
+    background-color: #fff;
+}
+
+.cd-section:nth-of-type(3)>div{
+    background:url(../image/back/Profile.jpg)
+}
+.cd-section:nth-of-type(4)>div {
+    background: url(../image/back/background-.jpg)
+}
+.cd-section:nth-of-type(5)>div {
+    background: url(../image/back/background-.jpg)
+}
+.cd-section:nth-of-type(6)>div {
+    background: url(../image/back/background-.jpg)
+}
+
+
+.a1{
+  background: rgba(255, 255, 255, 0.5);
+  display: block;
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  text-align:left;
+  padding: 70px 60px;
+  font-size: 14pt;
+  font-family:'KCCChassam';
+  /* font-weight: 500; */
+}
+
+li{
+    list-style: none;
+    display: flex;
+}
+
+.a3{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items:end;
+}
+.p2{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.a2{
+  font-size: 15pt;
+  display: block;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  text-align:left;
+  padding: 40px 60px;
+  background: rgba(255, 255, 255, 0.5);
+  color: #FFF;
+}
+
+.logo2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+}
+
+.VISUAL1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    position: relative;
+    top:20px;
+}
+
+.st{
+    position: relative;
+    bottom: 100px;
+    padding: 60px;
+}
+.VISUAL2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    position: relative;
+    bottom: 80px;
+}
+
+.tenten{
+    position: relative;
+    top: 100px;
+    padding: 60px;
+}
+
+
+/* 시각디자인 호버ㄱ */
+
+.iso-{
+    position: absolute;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.iso:hover .iso-{
+    opacity: 0;
+}
+
+.minopeu-{
+    position: absolute;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.minopeu:hover .minopeu-{
+ opacity: 0;
+}
+
+
+.st-{
+    position: absolute;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.st:hover .st-{
+    opacity: 0;
+}
+
+.gg-{
+    position: absolute;
+    opacity: 1;
+    transition: all 0.5s;
+}
+.gg:hover .gg-{
+    opacity: 0;
+}
+
+.tenten-{
+    position: absolute;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.tenten:hover .tenten-{
+    opacity: 0;
+}
+
+.busan-{
+    position: absolute;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.busan:hover .busan-{
+    opacity: 0;
+}
+
+.green-{
+    position: absolute;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.green:hover .green-{
+    opacity: 0;
+}
+
+
+
+
+
+
+/* 그린하우스 홈페이지 */
+.green{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+}
